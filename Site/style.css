@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+}
+
+#Home {
+    color: rgb(28, 90, 61);
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-image: url(/Site/imagens/floresta1.jpg);
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+main {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div{
+    border: dotted;
+}
+
+img{
+    width: 200px;
+    height: 250px;
+
+}
+
+img:hover{
+    transition: .7s;
+    box-shadow: 0px 5px 5px 0px black;
+}
+
+p {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+#div2{
+
+}
